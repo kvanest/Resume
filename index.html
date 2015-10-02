@@ -1,8 +1,211 @@
 <!DOCTYPE html>
 <html>
 	<head>
-        <title></title>
+		<title>Katy Van Est | Web Designer</title>
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700,100' rel='stylesheet' type='text/css'>
+        <style>
+            
+            body {
+                margin: 0;
+            }
+
+            #header {
+                width: 100%;
+                height: 90px;
+                background-color: #696969;
+                z-index: 1;
+                position: fixed;
+                margin-top: -25px;
+                font-family: 'Roboto', sans-serif;
+                border-bottom: 1px #fff solid;
+            }
+
+            #name {
+                float: left;
+                margin-left: 60px;
+                padding-top: 23px;
+                color: #fff;
+                font-size: 22px;
+                font-weight: 500;
+            }
+            
+            #email {
+                float: right;
+                margin-right: 50px;
+                padding-top: 28px;
+                color: #fff;
+                font-size: 17px;
+                font-weight: 100;
+            }
+            
+            h4 {
+                margin-left: 25px;
+                margin-bottom: 15px;
+                color: #696969;
+                font-family: 'Roboto', sans-serif;
+                font-size: 17px;
+                font-weight: 500;
+            }
+            
+            .right p {
+                margin-left: 25px;
+                margin-right: 5px;
+                margin-top: -10px;
+                color: #696969;
+                font-family: 'Roboto', sans-serif;
+                font-size: 15px;
+                font-weight: 100;
+            }
+            
+            ul {
+                list-style-type:disc;
+            }
+            
+            li {
+                margin-left: 15px; 
+                color: #696969;
+                font-size: 15px;
+                font-weight: 100;
+            }
+            
+            a:hover {
+                font-weight: bold;
+            }
+            
+            .left {
+                width: 33.89%;
+                height: 730px;
+                background-color: #85b22a;
+                float: left;
+                position: relative;
+                position: relative;
+                font-family: 'Roboto', sans-serif;
+                font-weight: 100;
+                border-right: 1px #fff solid;
+            }
+            
+            img {
+                position: relative;
+                margin-left: 60px;
+                margin-top: 125px;
+                border: 1px #fff solid;
+            }
+            
+            .left p {
+                margin-left: 60px;
+                margin-right: 60px;
+                margin-top: 20px;
+                color: #fff;
+            }
+            
+            .facts ul {
+                color: #fff;
+                margin-left: 20px;
+            }
+            
+            .facts li {
+                color: #fff;
+                margin-left: 40px;
+            }
+            
+            .quote {
+                margin-left: 60px;
+                margin-right: 70px;
+                color: #fff;
+                font-weight: 500;
+                text-align: center;
+                margin-top: 65px;
+            }
+
+            .right {
+                width: 66%;
+                height: 650px;
+                background-color: #fff; 
+                float: right;
+                position: relative;
+                font-family: 'Roboto', sans-serif;
+                font-weight: 500;
+                margin-top: 80px;
+            }
+
+            #footer {
+                height: 50px;
+                background-color: #696969;
+                clear: both;
+                position: relative;
+                text-align: center;
+                color: #fff;
+                font-family: 'Roboto', sans-serif;
+                font-weight: 100;
+                border-top: 1px #fff solid;
+            }
+            
+            #footer p {
+                position: relative;
+            }
+            
+        </style>
 	</head>
 	<body>
+	    <div id="header">
+            <p id="name">Katy Van Est</p>
+            <a href="mailto:contact@katyvanest.com">
+                <p id="email">contact@katyvanest.com</p>
+            </a>
+        </div>
+	    <div class="left">
+            <img src="images/photo.png">
+            <p>Web Designer, Graphic Designer, Budding Front-End Web Developer; Avid Reader, Spoiled Pet Parent</p>
+            <br>
+            <div class="facts">
+                <ul>Fun Facts
+                    <li>I have 1 horse, Rusty</li> 
+                    <li>I have 2 chinchillas, Sheldon & Gizmo</li>
+                    <li>I have 2 guinea pigs, Romeo & Orville (Orvy)</li> 
+                    <li>A tank with 1 betta (Cy) & a Snail</li> 
+                </ul>
+            </div>
+            <div class="quote">"Never let the fear of striking out keep you from playing the game." &mdash;Babe Ruth</div>
+        </div>
+	    <div class="right">
+            <h4>Objective</h4>
+            <p>To find a position that combines both graphic design and front-end web development, and offers the opportunity to advance in my career.</p>
+            
+            <h4>Experience</h4>
+                <ul>
+                    <li>Web Designer | Performance Auto Group</li>
+                    <li>Web Design Intern | Bailey Lauerman</li>
+                    <li>Graphic Designer & Photographer | Lloyd Veterinary Medical Center</li>
+                </ul>
+            
+            <h4>Skills</h4>
+                <ul>
+                    <li>Adobe Creative Suite | InDesign, Photoshop, Illustrator, Dreamweaver</li>
+                    <li>Web Design</li>
+                    <li>HTML & CSS</li>
+                    <li>Editorial Design</li>
+                    <li>Identity Design</li>
+                    <li>Poster Design</li>
+                    <li>Typography</li>
+                    <li>Illustrations</li>
+                    <li>Logo Design</li>
+                    <li>Photography</li>
+                </ul>
+            
+            <h4>Education</h4>
+            <p>Iowa State University 
+                <br> B.F.A. Graphic Design
+                <br> May 2009
+            </p>
+            <br>
+            <p>Black Hawk College 
+                <br> A.A.S. Horse Science Technology
+                <br> May 2014
+            </p>
+            
+        </div>
+	    <div id="footer">
+            <p>221 N. 184th Plaza Apt 207, Elkhorn, NE 68022 | 563.299.0857</p>
+        </div>
 	</body>
 </html>
